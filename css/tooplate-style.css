@@ -568,3 +568,72 @@ b, strong {
     vertical-align: top;
   }
 }
+
+
+#lateral1 { 
+  width: 400px;
+  height: 390px; 
+  float: left;
+  border: rgb(119, 119, 119) 2px solid;
+  margin: 10px;
+  border-radius:22px;
+
+}
+
+#lateral2 { 
+  width: 400px;
+  height: 390px; 
+  float: left;
+  border: rgb(119, 119, 119) 2px solid;
+  margin: 10px;
+  border-radius:22px;
+}
+
+#lateral3 { 
+  width: 400px;
+  height: 390px; 
+  float: left;
+  border: rgb(119, 119, 119) 2px solid;
+  margin: 10px;
+  border-radius:22px;
+}
+
+#lateral4 { 
+  width: 400px;
+  height: 390px; 
+  float: left;
+  border: rgb(119, 119, 119) 2px solid;
+  margin: 10px;
+  border-radius:22px;
+}
+
+h3{
+  text-shadow:0 0 0.5px rgb(0, 0, 0);
+}
+
+header{
+  border-radius:22px;
+}
+
+button{
+  border-radius:22px; 
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  border-radius:22px;
+  height: 40px;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+  
+}
+
+#container1{
+  display: flex;
+  justify-content: center;
+}
