@@ -574,48 +574,41 @@ b, strong {
   width: 400px;
   height: 390px; 
   border: rgb(119, 119, 119) 2px solid;
-  margin: 15px;
+  float: left;
   border-radius:22px;
   justify-content: space-evenly;
-  float: left;
-  position: relative;
-  left: 200px;
+  margin: 10px;
+  
 }
 
 #lateral2 { 
   width: 400px;
   height: 390px; 
   border: rgb(119, 119, 119) 2px solid;
-  margin: 15px;
+  float: left;
   border-radius:22px;
   justify-content: space-evenly;
-  float: left;
-  position: relative;
-  left: 200px;
+  margin: 10px;
 }
 
 #lateral3 { 
   width: 400px;
   height: 390px; 
   border: rgb(119, 119, 119) 2px solid;
-  margin: 15px;
+  float: left;
   border-radius:22px;
   justify-content: space-evenly;
-  float: left;
-  position: relative;
-  left: 200px;
+  margin: 10px;
 }
 
 #lateral4 { 
   width: 400px;
   height: 390px; 
   border: rgb(119, 119, 119) 2px solid;
-  margin: 15px;
+  float: left;
   border-radius:22px;
   justify-content: space-evenly;
-  float: left;
-  position: relative;
-  left: 200px;
+  margin: 10px;
 }
 
 h3{
