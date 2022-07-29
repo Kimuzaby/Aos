@@ -573,38 +573,49 @@ b, strong {
 #lateral1 { 
   width: 400px;
   height: 390px; 
-  float: left;
   border: rgb(119, 119, 119) 2px solid;
-  margin: 10px;
+  margin: 15px;
   border-radius:22px;
-
+  justify-content: space-evenly;
+  float: left;
+  position: relative;
+  left: 200px;
 }
 
 #lateral2 { 
   width: 400px;
   height: 390px; 
-  float: left;
   border: rgb(119, 119, 119) 2px solid;
-  margin: 10px;
+  margin: 15px;
   border-radius:22px;
+  justify-content: space-evenly;
+  float: left;
+  position: relative;
+  left: 200px;
 }
 
 #lateral3 { 
   width: 400px;
   height: 390px; 
-  float:left;
   border: rgb(119, 119, 119) 2px solid;
-  margin: 10px;
+  margin: 15px;
   border-radius:22px;
+  justify-content: space-evenly;
+  float: left;
+  position: relative;
+  left: 200px;
 }
 
 #lateral4 { 
   width: 400px;
   height: 390px; 
-  float: left;
   border: rgb(119, 119, 119) 2px solid;
-  margin: 10px;
+  margin: 15px;
   border-radius:22px;
+  justify-content: space-evenly;
+  float: left;
+  position: relative;
+  left: 200px;
 }
 
 h3{
@@ -634,11 +645,14 @@ button{
 }
 
 #container1{
-  display: flex;
+  display:  left;
   justify-content: center;
 }
 
 .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
@@ -647,14 +661,16 @@ button{
   border-radius:22px;
 }
 
-.title {
-  color: grey;
-  font-size: 18px;
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.container {
+  padding: 2px 16px;
+}
 .texto {
   color: #212121;
-  font-size: 2.8em;
-  margin: 24px 0;
+  font-size: 2.0em;
+  margin: 20px 0;
   font-weight: bolder;
 }
