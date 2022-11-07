@@ -77,6 +77,7 @@ b, strong {
   font-weight: bold;
 }
 
+
 .custom-btn {
   background: #eee;
   color: #5b5b5b;
@@ -566,6 +567,17 @@ b, strong {
   }
 }
 
+#lateral0 { 
+  width: 380px;
+  height: 380px; 
+  border: rgb(119, 119, 119) 2px solid;
+  float: left;
+  border-radius:22px;
+  justify-content: space-evenly;
+  margin: 6px;
+ margin-bottom: 20px;
+  
+}
 
 #lateral1 { 
   width: 380px;
@@ -612,17 +624,6 @@ b, strong {
   margin-bottom: 20px;
 }
 
-#lateral4 { 
-  width: 380px;
-  height: 380px; 
-  border: rgb(119, 119, 119) 2px solid;
-  float: left;
-  border-radius:22px;
-  justify-content: space-evenly;
-  margin: 6px;
-  margin-bottom: 20px;
-}
-
 
 #lateral5 { 
   width: 380px;
@@ -634,6 +635,8 @@ b, strong {
   margin: 6px;
   margin-bottom: 20px;
 }
+
+
 
 h3{
   text-shadow:0 0 0.5px rgb(0, 0, 0);
@@ -665,6 +668,7 @@ button{
   display:  left;
   justify-content: center;
 }
+
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
