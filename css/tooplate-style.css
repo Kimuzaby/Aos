@@ -696,27 +696,37 @@ button{
   font-weight: bolder;
 }
 
+
+/* Boxes responsive-deforme*/
+/* Default styles for course cards */
 .w3-card-4 {
-  width: 100%; /* Use 100% width for the course boxes */
+  width: 100%; /* Make the cards occupy the full width of the container */
+  margin: 0 auto;
+  margin-bottom: 20px; /* Add some spacing between cards */
 }
 
-.courses-container {
-  display: flex; /* Use flexbox to arrange course boxes */
-  flex-wrap: wrap; /* Allow wrapping of course boxes if the container is too narrow */
-}
-
-/* Adjust styles for screens smaller than 768px (example breakpoint) */
-@media (max-width: 768px) {
+/* Media query for screens smaller than a specified width (e.g., 768px) */
+@media screen and (max-width: 768px) {
   .courses-container {
-    width: 100%; /* Change the width to 100% for smaller screens */
+    width: 90%; /* Adjust the width of the container for smaller screens */
   }
+  
   .w3-card-4 {
-    width: 100%; /* Adjust the width of course boxes for smaller screens */
+    width: 100%; /* Make the cards occupy the full width of the container */
+    margin: 0 auto;
   }
-  /* Add other responsive styles here */
+}
+/* Text*/
+.w3-card-4 {
+  font-size: 16px; /* Default font size */
+  line-height: 1.5; /* Default line height */
 }
 
-.w3-card-4 img {
-  max-width: 100%; /* Ensure images are responsive */
-  height: auto;
+@media (max-width: 768px) {
+  .w3-card-4 {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    line-height: 1.4; /* Adjust line height for smaller screens */
+  }
 }
+
+
