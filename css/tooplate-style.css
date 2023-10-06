@@ -696,3 +696,27 @@ button{
   font-weight: bolder;
 }
 
+.w3-card-4 {
+  width: 100%; /* Use 100% width for the course boxes */
+}
+
+.courses-container {
+  display: flex; /* Use flexbox to arrange course boxes */
+  flex-wrap: wrap; /* Allow wrapping of course boxes if the container is too narrow */
+}
+
+/* Adjust styles for screens smaller than 768px (example breakpoint) */
+@media (max-width: 768px) {
+  .courses-container {
+    width: 100%; /* Change the width to 100% for smaller screens */
+  }
+  .w3-card-4 {
+    width: 100%; /* Adjust the width of course boxes for smaller screens */
+  }
+  /* Add other responsive styles here */
+}
+
+.w3-card-4 img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto;
+}
