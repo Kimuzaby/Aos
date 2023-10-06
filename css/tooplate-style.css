@@ -568,7 +568,7 @@ b, strong {
 }
 
 #lateral0 { 
-  width: 360px;
+  width: 330px;
   height: 330px; 
   border: rgb(119, 119, 119) 2px solid;
   float: left;
@@ -581,7 +581,7 @@ b, strong {
 }
 
 #lateral1 { 
-  width: 360px;
+  width: 330px;
   height: 330px; 
   border: rgb(119, 119, 119) 2px solid;
   float: left;
@@ -593,7 +593,7 @@ b, strong {
 }
 
 #lateral2 { 
-  width: 360px;
+  width: 330px;
   height: 330px; 
   border: rgb(119, 119, 119) 2px solid;
   float: left;
@@ -604,7 +604,7 @@ b, strong {
 }
 
 #lateral3 { 
-  width: 360px;
+  width: 330px;
   height: 330px; 
   border: rgb(119, 119, 119) 2px solid;
   float: left;
@@ -615,7 +615,7 @@ b, strong {
 }
 
 #lateral4 { 
-  width: 360px;
+  width: 330px;
   height: 330px; 
   border: rgb(119, 119, 119) 2px solid;
   float: left;
@@ -627,7 +627,7 @@ b, strong {
 
 
 #lateral5 { 
-  width: 360px;
+  width: 330px;
   height: 330px; 
   border: rgb(119, 119, 119) 2px solid;
   float: left;
@@ -733,5 +733,5 @@ button{
 
 /*Samller text*/
 .course-description {
-  font-size: 15px; /* You can adjust the font size as needed */
+  font-size: 14px; /* You can adjust the font size as needed */
 }
