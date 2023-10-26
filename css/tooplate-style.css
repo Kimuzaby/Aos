@@ -48,7 +48,7 @@ p {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
-  color: #5b5b5b;
+  color: #313131;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -305,8 +305,10 @@ b, strong {
   color: #ffffff;
 }
 .dark-mode .feature-card .uil,
+.dark-mode .box, 
 .dark-mode .navbar-light .navbar-brand,
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
+.dark-mode p,
 .dark-mode .color-mode {
   color: #ffffff;
 }
@@ -788,7 +790,6 @@ button{
   margin: 20px 0;
   border: 2px solid #ccc; 
   border-radius: 20px;
-  background-color: #fff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   margin: 10px; /* more space between boxes */
@@ -802,17 +803,10 @@ button{
 }
 }
 
-.box h3 {
-  color: #333;
-}
 
-.box h4 {
-  color: #666;
-}
 
-.box p {
-  color: #777;
-}
+
+
 
 .box button {
   background-color: #0076ff;
