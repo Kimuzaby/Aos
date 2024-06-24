@@ -849,3 +849,88 @@ button{
 .whatsapp-button i {
   margin-right: 10px; 
 }
+
+
+
+/* Dropdown Menu */
+.nav-item.dropdown {
+  position: relative;
+}
+.nav-item.dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu a {
+  color: #333;
+  padding: 10px 20px;
+  display: block;
+  text-decoration: none;
+}
+.dropdown-menu a:hover {
+  background-color: #f8f9fa;
+}
+
+#botonesNavegacion {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa; /* Color de fondo */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+  padding: 10px 0; /* Espaciado interno */
+  z-index: 999; /* Z-index para estar por encima del contenido */
+}
+
+#botonesNavegacion .row {
+  justify-content: space-between; /* Espaciado entre los botones */
+  padding: 0 15px; /* Espaciado horizontal */
+}
+
+#botonesNavegacion button {
+  margin: 5px; /* Espaciado entre los botones */
+}
+
+/* Estilos generales de los botones */
+#botonesNavegacion .btn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  border-radius: 25px;
+  color: #ffffff; /* Color del texto por defecto */
+  background-color: #007bff; /* Color de fondo por defecto */
+  border: 2px solid #007bff; /* Borde por defecto */
+}
+
+/* Estilo de hover para los botones */
+#botonesNavegacion .btn:hover {
+  background-color: #ffffff; /* Cambia el color de fondo a blanco */
+  color: #007bff; /* Cambia el color del texto a azul */
+  border-color: #ffffff; /* Cambia el color del borde a blanco */
+}
+
+/* Estilos específicos para los botones de página anterior y siguiente */
+.btn-anterior {
+  background-color: #007bff;
+  border: 2px solid #007bff;
+}
+
+.btn-siguiente {
+  background-color: #28a745;
+  border: 2px solid #28a745;
+}
+
+.btn-anterior:hover, .btn-siguiente:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #ffffff; /* Cambia el color del texto a blanco */
+  text-decoration: none;
+}
